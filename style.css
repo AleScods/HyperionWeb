@@ -48,6 +48,22 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+.imagecarrousel{
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.letrascarrousel{
+    text-align: center;
+    font-style:inherit;
+    color:#000000;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
 body {
     color: #333333;
     font-size: 15px;
@@ -435,8 +451,8 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 .imagelogo{
-    width: 60%;
-    height: 60%;
+    width: 40%;
+    height: 40%;
 }
 
 
@@ -618,7 +634,7 @@ a img.aligncenter {
 
 .sl-content {
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	background: #fff;
 	position: relative;
 }

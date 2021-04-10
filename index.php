@@ -24,58 +24,61 @@
     include "layouts/header.php";
     ?>
 	<!-- End header -->
-    
-    <div id="slider" class="sl-slider-wrapper">
-		<div class="sl-slider">
-			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-1"></div>
-					<h2>HYPERION</h2>
-					<blockquote><p>Aplicación de enseñanza de lengua de señas mexicana. </p>
-					<a href="#" class="bttn-new">Comenzar</a>
-					</blockquote>
+	<div class="slide">
+		
+		<div id="slider" class="sl-slider-wrapper">
+			<div class="sl-slider">
+				<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+					<div class="sl-slide-inner">
+						<div class="bg-img bg-img-1"></div>
+						<h2>HYPERION</h2>
+						<blockquote><p>Aplicación de enseñanza de lengua de señas mexicana. </p>
+						<a href="#" class="bttn-new">Comenzar</a>
+						</blockquote>
+					</div>
 				</div>
-			</div>
-			
-			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-2"></div>
-					<h2>Marketing Website</h2>
-					<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
-					<a href="#" class="bttn-new">Started Today</a>
-					</blockquote>
+				
+				<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+					<div class="sl-slide-inner">
+						<div class="bg-img bg-img-2"></div>
+						<h2>Marketing Website</h2>
+						<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
+						<a href="#" class="bttn-new">Started Today</a>
+						</blockquote>
+					</div>
 				</div>
-			</div>
-			
-			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-3"></div>
-					<h2>Search engine, Analytics, Traffic</h2>
-					<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
-					<a href="#" class="bttn-new">Started Today</a>
-					</blockquote>
+				
+				<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+					<div class="sl-slide-inner">
+						<div class="bg-img bg-img-3"></div>
+						<h2>Search engine, Analytics, Traffic</h2>
+						<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
+						<a href="#" class="bttn-new">Started Today</a>
+						</blockquote>
+					</div>
 				</div>
-			</div>
-			
-			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
-				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-4"></div>
-					<h2>Social Networking</h2>
-					<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
-					<a href="#" class="bttn-new">Started Today</a>
-					</blockquote>
+				
+				<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+					<div class="sl-slide-inner">
+						<div class="bg-img bg-img-4"></div>
+						<h2>Social Networking</h2>
+						<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
+						<a href="#" class="bttn-new">Started Today</a>
+						</blockquote>
+					</div>
 				</div>
-			</div>
-		</div><!-- /sl-slider -->
+			</div><!-- /sl-slider -->
+		
 
-		<nav id="nav-dots" class="nav-dots">
-			<span class="nav-dot-current"></span>
-			<span></span>
-			<span></span>
-			<span></span>
-		</nav>
+			<nav id="nav-dots" class="nav-dots">
+				<span class="nav-dot-current"></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</nav>
 
-	</div><!-- /slider-wrapper -->
+		</div><!-- /slider-wrapper -->
+	</div>
 
     <div id="about" class="section wb nopadtop">
         <div class="container">
@@ -272,14 +275,19 @@ señas mexicana.
         <div class="container">
             <div class="row">
                 <div id="logo-carousel" class="owl-carousel">
-					<div> <img src="images/logo_01.png" alt=""> </div>
-					<div> <img src="images/logo_02.png" alt=""> </div>
-					<div> <img src="images/logo_03.png" alt=""> </div>
-					<div> <img src="images/logo_04.png" alt=""> </div>
-					<div> <img src="images/logo_05.png" alt=""> </div>
-					<div> <img src="images/logo_06.png" alt=""> </div>
-					<div> <img src="images/logo_01.png" alt=""> </div>
-					<div> <img src="images/logo_02.png" alt=""> </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-abc.png" alt=""> <p class="letrascarrousel">Abecedario</p> </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-adjetivos.png" alt=""> <p class="letrascarrousel">Adjetivos</p>  </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-numeros.png" alt=""> <p class="letrascarrousel">Números</p>   </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-comida.png" alt=""> <p class="letrascarrousel">Comida</p>  </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-familia.png" alt=""><p class="letrascarrousel">Familia</p>   </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-dias.png" alt=""> <p class="letrascarrousel">Días</p>  </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-meses.png" alt=""> <p class="letrascarrousel">Meses</p>  </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-estaciones.png" alt=""> <p class="letrascarrousel">Estaciones</p>  </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-pronombres.png" alt=""> <p class="letrascarrousel">Pronombres</p> </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-saludos.png" alt=""> <p class="letrascarrousel">Saludos</p> </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-sentimientos.png" alt=""> <p class="letrascarrousel">Sentimientos</p> </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-tiempo.png" alt=""> <p class="letrascarrousel">Tiempo</p> </div>
+					<div class="imagecarrousel"> <img src="images/icon/icon-verbo.png" alt=""> <p class="letrascarrousel">Verbos</p>  </div>
 				</div>
             </div><!-- end row -->
         </div><!-- end container -->
