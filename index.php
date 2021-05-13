@@ -134,36 +134,21 @@ señas mexicana.
 <p class="lead"> ● Crear un lugar donde las personas de cualquier edad puedan aprender a comunicarse y la gente pueda comunicarse con ellos mediante lengua de señas.</p>
 <p class="lead"> ● Inclusión de contenidos establecidos por personas capacitadas en LSM. </p>
             </div><!-- end title -->
-			
-			<div class="seo-services row clearfix">
-                <div class="col-md-6 col-xs-12">
-					<div class="why-img-box">
-						<img src="images/why-img-01.jpg" class="img-fluid" alt="" />
-					</div>
-                </div><!-- end col -->
+        </div><!-- end container -->
+    </div><!-- end section -->
 
-                <div class="col-md-6 col-xs-12">
-					<div class="why-dit">
-						<h4>Research Optimization</h4>
-						<p>Donec in mattis felis. Vivamus eu convallis metus. Phasellus mattis tincidunt eros, et malesuada ligula pharetra non. Cras fringilla iaculis augue, eu aliquam erat. Fusce convallis dolor dolor, eu fermentum risus mattis eget. Etiam id eleifend lorem. Pellentesque ut urna pharetra, vulputate magna quis, feugiat turpis. Aenean at nulla sit amet elit fringilla lobortis. Etiam ac lectus eget eros cursus sagittis sit amet dapibus nisi. Nullam elementum, lectus vitae feugiat fermentum, massa mauris laoreet neque, a semper diam lorem ut ante. </p>
-						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-					</div>
+	<div id="testimonials" class="section wb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Happy Clients</h3>
+                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Landigoo website template!</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    
                 </div><!-- end col -->
-				
-				<div class="col-md-6 col-xs-12">
-					<div class="why-dit">
-						<h4>Research Optimization</h4>
-						<p>Donec in mattis felis. Vivamus eu convallis metus. Phasellus mattis tincidunt eros, et malesuada ligula pharetra non. Cras fringilla iaculis augue, eu aliquam erat. Fusce convallis dolor dolor, eu fermentum risus mattis eget. Etiam id eleifend lorem. Pellentesque ut urna pharetra, vulputate magna quis, feugiat turpis. Aenean at nulla sit amet elit fringilla lobortis. Etiam ac lectus eget eros cursus sagittis sit amet dapibus nisi. Nullam elementum, lectus vitae feugiat fermentum, massa mauris laoreet neque, a semper diam lorem ut ante. </p>
-						<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-					</div>
-                </div><!-- end col -->
-				
-                <div class="col-md-6 col-xs-12">
-					<div class="why-img-box">
-						<img src="images/why-img-02.jpg" class="img-fluid" alt="" />
-					</div>
-                </div><!-- end col -->
-            </div><!-- end how-its-work -->
+            </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
 
@@ -180,30 +165,30 @@ señas mexicana.
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/seo_01.png" alt="" class="img-fluid img-rounded">
+								<img src="images/servicios/facilacceso.png" alt="" class="img-fluid img-rounded">
 							</div>
 							<h3>Fácil acceso</h3>
-							<p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
+							<p>Ingresa con una cuenta o sin ella</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/seo_02.png" alt="" class="img-fluid img-rounded">
+								<img src="images/servicios/aprendeoffline.png" alt="" class="img-fluid img-rounded">
 							</div>
 							<h3>Aprende offline</h3>
-							<p>Duis at tellus at dui tincidunt scelerisque nec sed felis. Suspendisse id dolor sed leo rutrum euismod. Nullam vestibulum fermentum erat. It nam auctor. </p>
+							<p>Descarga el contenido y apre sin necesidad de tener conexión a Internet </p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/seo_03.png" alt="" class="img-fluid img-rounded">
+								<img src="images/servicios/ponteenpractica.png" alt="" class="img-fluid img-rounded">
 							</div>
 							<h3>Ponte en práctica</h3>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet lacus vitae massa sodales aliquam at eget quam. Integer ultricies et magna quis accumsan.</p>
+							<p>Con los divertidos ejercicios de reforzamiento.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 					
@@ -273,6 +258,10 @@ señas mexicana.
 
     <div id="support" class="section db">
         <div class="container">
+			<div class="section-title text-center">
+				<h3>Contenido</h3>
+				<p class="lead">Diferentes temas para aprender.</p>
+			</div>
             <div class="row">
                 <div id="logo-carousel" class="owl-carousel">
 					<div class="imagecarrousel"> <img src="images/icon/icon-abc.png" alt=""> <p class="letrascarrousel">Abecedario</p> </div>

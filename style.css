@@ -41,6 +41,7 @@
 @import url(css/prettyPhoto.css);
 @import url(css/owl.carousel.css);
 @import url(css/slit-custom.css);
+@import url(css/slider.css);
 @import url(css/tippy.css);
 @import url(css/font-awesome.min.css);
 
@@ -48,6 +49,9 @@
     SKELETON
 -------------------------------------------------------------------*/
 
+.tamano{
+    height: 600px;
+}
 .imagecarrousel{
     border-radius: 10px;
     background-color: #ffffff;
@@ -1140,7 +1144,7 @@ body.seo_version .btn-light.ban-btn{
 .testimonial {
     background-color: transparent;
 	text-align: center;
-	max-width: 730px;
+	max-width: 100%;
 	margin: 0 auto;
 	border-radius: 4px;
 	overflow: hidden;
