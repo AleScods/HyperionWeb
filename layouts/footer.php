@@ -6,8 +6,7 @@
                         <div class="widget-title">
                             <img class="imagelogo" src="images/logocompleto.png" alt="">
                         </div>
-                        <p> SEO Mauris pharetra quam ut commodo malesuada. Sed a ornare purus, nec cursus tortor. Integer vehicula felis nec nunc pulvinar efficitur. In et semper odio. Sed laoreet ullamcorper augue, ut mattis metus mattis quis.</p>
-                        <p>Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                        <p>Una aplicación móvil para dispositivos Android con el objetivo de enseñar a personas la lengua de señas mexicana (LSM). De esta manera se busca contribuir a la inclusión social, construyendo una sociedad integrada e inclusiva.</p>
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
 				
@@ -18,11 +17,8 @@
                         </div>
                         <ul class="footer-links">
                             <li><a href="#">Inicio</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Pricing</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Faq</a></li>
-							<li><a href="#">Contact</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                            <li><a href="#">Contacto</a></li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
@@ -67,8 +63,6 @@
                         <ul class="footer-links">
                             <li><a href="mailto:#">apphyperionlsm@gmail.com</a></li>
                             <li><a href="#">http://hyperionlsm.vzpla.net/</a></li>
-                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
-                            <li>+61 3 8376 6284</li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->

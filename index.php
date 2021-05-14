@@ -38,43 +38,11 @@
 					</div>
 				</div>
 				
-				<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-					<div class="sl-slide-inner">
-						<div class="bg-img bg-img-2"></div>
-						<h2>Marketing Website</h2>
-						<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
-						<a href="#" class="bttn-new">Started Today</a>
-						</blockquote>
-					</div>
-				</div>
-				
-				<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-					<div class="sl-slide-inner">
-						<div class="bg-img bg-img-3"></div>
-						<h2>Search engine, Analytics, Traffic</h2>
-						<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
-						<a href="#" class="bttn-new">Started Today</a>
-						</blockquote>
-					</div>
-				</div>
-				
-				<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
-					<div class="sl-slide-inner">
-						<div class="bg-img bg-img-4"></div>
-						<h2>Social Networking</h2>
-						<blockquote><p>Etiam felis elit, mollis posuere accumsan ac, dignissim a ligula. Nam ullamcorper ornare tortor sed dapibus. Aliquam ultrices vestibulum sodales. Aenean efficitur massa vel tellus dapibus pellentesque. </p>
-						<a href="#" class="bttn-new">Started Today</a>
-						</blockquote>
-					</div>
-				</div>
 			</div><!-- /sl-slider -->
 		
 
 			<nav id="nav-dots" class="nav-dots">
 				<span class="nav-dot-current"></span>
-				<span></span>
-				<span></span>
-				<span></span>
 			</nav>
 
 		</div><!-- /slider-wrapper -->
@@ -85,7 +53,6 @@
             <div class="row">
 				<div class="col-md-6 m40">
                     <div class="message-box">
-                        <h4>SEO Company</h4>
                         <h2>Bienvenido a HYPERION </h2>
                         <p>HYPERION ha trabajado durante 2 años en desarrollar una metodología para facilitar la enseñanza-aprendizaje de la lengua de señas mexicana para que las personas puedan aprender responsablemente, así como formar parte de un ambiente educativo o laboral inclusivo</p>
 						
@@ -101,52 +68,102 @@
                 </div><!-- end col -->
                 
             </div><!-- end row -->
-			
-			<div class="row vission-and-mission">
-				<div class="col-md-12">
-					<ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
-						<li class="nav-item"><a class="nav-link active" href="#tab_a" data-toggle="tab">Nuestra misión</a></li>
-						<li class="nav-item"><a class="nav-link" href="#tab_b" data-toggle="tab">Nuestra visión</a></li>				
-					</ul>
-					<div class="tab-content">
-						<div class="tab-pane fade show active" id="tab_a">
-							<div class="box-inner-m">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque tortor mi, eget mattis velit sagittis id. Duis ornare mauris eu eros interdum, vitae finibus arcu ultricies. Donec vitae felis eleifend, dignissim erat a, pretium diam. Donec eu massa odio. Suspendisse et ornare lacus, pharetra imperdiet ligula.</p>
-								<p>Vestibulum ac quam id lorem semper condimentum. Nulla vel ligula turpis. Nullam luctus, mi nec rhoncus gravida, tortor est semper purus, a feugiat sapien odio non urna. Fusce pellentesque neque ut nisi rhoncus imperdiet. Sed eu purus vel turpis consectetur convallis. Donec a dolor tellus. Phasellus dignissim erat nec ipsum condimentum sollicitudin. </p>
-							</div>
-						</div>
-						<div class="tab-pane fade" id="tab_b">
-							<div class="box-inner-m">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus tortor, aliquam quis augue eu, tempus semper tellus. Nullam eu auctor lacus. Cras dapibus a eros sed lobortis. Phasellus dictum mattis nibh, pretium maximus ex eleifend quis. Quisque ac nisi blandit, sagittis nulla eu, volutpat nibh. Duis non mauris velit. Nulla ornare scelerisque ex, et ultrices nunc dictum sed. Aenean in ultricies turpis, quis gravida elit. Aenean finibus, eros quis lobortis blandit, nibh massa luctus magna, sed laoreet nisi libero eu urna. In mi est, elementum eu tempor sollicitudin, lacinia eget sem. Vivamus aliquet volutpat ante. Ut faucibus nibh nec feugiat mollis. Maecenas quis felis accumsan, fermentum massa vitae, porttitor purus. Aliquam faucibus, risus id ultrices sollicitudin, justo sem sodales odio, eget suscipit risus nibh non purus. Duis dictum, ex a cursus mattis, justo neque interdum augue, sit amet hendrerit odio felis ut ante. Pellentesque vitae tristique libero, ac venenatis libero. </p>
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+	<div id="services" class="section lb">
+        <div class="container-fluid">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div id="accordion" class="process-accordion" role="tablist">
+							<div class="card">
+								<div class="card-header" role="tab" id="headingTwo">
+									<h5 class="mb-0">
+										<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+											Objetivos
+											<i class="fa fa-bullseye" aria-hidden="true"></i>
+										</a>
+									</h5>
+								</div>
+								<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+									<div class="card-body">
+										<div class="inner-acc">
+											<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+											<ul>
+												<li><i class="fa fa-hand-o-right" aria-hidden="true"></i> A través de una aplicación interactiva, promover el conocimiento de la lengua de señas mexicana</li>
+												<li><i class="fa fa-hand-o-right" aria-hidden="true"></i> Crear un lugar donde las personas de cualquier edad puedan aprender a comunicarse y la gente pueda comunicarse con ellos mediante lengua de señas.</li>
+												<li><i class="fa fa-hand-o-right" aria-hidden="true"></i> Inclusión de contenidos establecidos por personas capacitadas en LSM. </li>
+											</ul>
+											<i class="fa fa-bullseye" aria-hidden="true"></i>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>				
+				</div>
 			</div>
-			
-			<hr class="hr1">
-			
-			<div class="section-title text-center">               
-                <h3>Objetivos</h3>
-                <p class="lead"> ● A través de una aplicación interactiva, promover el conocimiento de la lengua de
-señas mexicana.
-</p>
-<p class="lead"> ● Crear un lugar donde las personas de cualquier edad puedan aprender a comunicarse y la gente pueda comunicarse con ellos mediante lengua de señas.</p>
-<p class="lead"> ● Inclusión de contenidos establecidos por personas capacitadas en LSM. </p>
-            </div><!-- end title -->
         </div><!-- end container -->
     </div><!-- end section -->
 
 	<div id="testimonials" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Happy Clients</h3>
-                <p class="lead">We thanks for all our awesome testimonials! There are hundreds of our happy customers! <br>Let's see what others say about Landigoo website template!</p>
+                <h3>Conoce la app</h3>
+                <p class="lead">¡Aprende de una manera dinámica y divertida! <br>Da un vistazo, ¡te encantará!</p>
             </div><!-- end title -->
 
             <div class="row">
                 <div class="col-md-12 col-sm-12">
-                    
+				<div class="testi-carousel owl-carousel owl-theme tamano">
+                        <div class="testimonial clearfix">
+
+						<div class="testi-meta">
+                                <h4> <b>Niveles </b><small>Contenido por niveles</small></h4>
+                            </div>
+                                <img src="images/img1.jpg" alt="" class="img-fluid aligncenter">
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+						<div class="testi-meta">
+                                <h4> <b>Lecciones </b><small>Aprende con vídeos</small></h4>
+                            </div>
+						<img src="images/img2.jpg" alt="" class="img-fluid aligncenter">
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+						<div class="testi-meta">
+                                <h4> <b>Progreso </b><small>Conforme avances desbloqueas niveles</small></h4>
+                            </div>
+						<img src="images/img3.jpg" alt="" class="img-fluid aligncenter">
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+						<div class="testi-meta">
+                                <h4> <b>Logros</b><small>Retos y divertidas metas</small></h4>
+                            </div>
+						<img src="images/img4.jpg" alt="" class="img-fluid aligncenter">
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+						<div class="testi-meta">
+                                <h4> <b>Datos curiosos</b><small>Información interesante</small></h4>
+                            </div>
+						<img src="images/img5.jpg" alt="" class="img-fluid aligncenter">
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+						<div class="testi-meta">
+                                <h4> <b>Ejercicios </b><small>Refuerza los aprendido</small></h4>
+                            </div>
+						<img src="images/img6.jpg" alt="" class="img-fluid aligncenter">
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
                 </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
@@ -212,46 +229,7 @@ señas mexicana.
 						</div><!-- end service -->
 					</div><!-- end col -->
 
-					<div class="text-center">
-						<div class="service-widget">
-							<div class="post-media wow fadeIn">
-								<img src="images/seo_06.png" alt="" class="img-fluid img-rounded">
-							</div>
-							<h3>Social Media Marketing</h3>
-							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet lacus vitae massa sodales aliquam at eget quam. Integer ultricies et magna quis accumsan.</p>
-						</div><!-- end service -->
-					</div><!-- end col -->
 				</div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-
-    <div class="parallax section lb">
-        <div class="container">
-            <div class="row text-center stat-wrap">
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-briefcase"></i></span>
-                    <p class="stat_count">1200</p>
-                    <h3>Complated Projects</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-happy"></i></span>
-                    <p class="stat_count">3210</p>
-                    <h3>Happy Clients</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-idea"></i></span>
-                    <p class="stat_count">3781</p>
-                    <h3>Customer Services</h3>
-                </div><!-- end col -->
-
-                <div class="col-md-3 col-sm-6 col-xs-12">
-                    <span data-scroll class="global-radius icon_wrap effect-1"><i class="flaticon-customer-service"></i></span>
-                    <p class="stat_count">4300</p>
-                    <h3>Answered Questions</h3>
-                </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->

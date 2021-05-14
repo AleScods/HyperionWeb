@@ -14,7 +14,7 @@
 				<div class="ball"></div>
 				<div class="ball"></div>
 			</div>
-			<div class="text">LOADING...</div>
+			<div class="text">CARGANDO...</div>
 		</div>
 	</div>
 	<!-- END LOADER -->
@@ -113,11 +113,13 @@
     ?>
 	<!-- End footer -->
 	
+
+	
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">GreatSEO</a> Design By : <a href="https://html.design/">html design</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">HYPERION</a> Design By : <a href="https://html.design/">Alejandra Fuentes</a></p>
                 </div>
             </div>
         </div><!-- end container -->

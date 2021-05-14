@@ -44,28 +44,32 @@
 			<p>Aplicación de aprendizaje de lengua de señas mexicano (LSM)</p>
         </div>
         <div class="container">
-            <p> <b> Directora del proyecto: </b> <br>
-                Dra. Aída Lucina González Lara <a style="font-color:white" href="mailto:aida.gonzalezlr@uanl.edu.mx "> aida.gonzalezlr@uanl.edu.mx  </a><br>
+            <p><b> Intérprete de LSM: </b><br>
+                Luz Andrea Guerrero Vázquez <br>
+                Licenciada en Educación Preescolar <br><br>
+                <b> Directora del proyecto: </b> <br>
+                Dra. Aída Lucina González Lara <a style="color:white " href="mailto:aida.gonzalezlr@uanl.edu.mx "><small>   <u> aida.gonzalezlr@uanl.edu.mx </u> </small> </a><br> <br>
                 <b> Estudiantes: </b><br>
                 Orlando Miguel Leija Alvarez <br>
                 Alejandra Monzerrat Fuentes Gonzalez <br>
                 Luis Andrés García Contreras  <br>
-
              </p>
         </div>
     </div><!-- end section -->
 
 	<!-- Start footer -->
-    <?php
+	<?php
     include "layouts/footer.php";
     ?>
-    <!-- End footer -->
+	<!-- End footer -->
+	
+
 	
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">GreatSEO</a> Design By : <a href="https://html.design/">html design</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">HYPERION</a> Design By : <a href="https://html.design/">Alejandra Fuentes</a></p>
                 </div>
             </div>
         </div><!-- end container -->

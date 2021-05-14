@@ -761,7 +761,7 @@ a.bttn-new:focus {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 70px 0;
+padding: 30px 0;
 }
 
 .noover {
@@ -1112,9 +1112,9 @@ body.seo_version .btn-light.ban-btn{
     display: block;
 	max-width: 250px;
 	margin: 0 auto;
-	margin-top: 20px;
-	padding-bottom: 30px;
-	background: #333;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	background: #0594a9;
 	padding-right: 15px;
 	padding-left: 15px;
 	border-radius: 20px 20px 0 0;
@@ -1132,13 +1132,14 @@ body.seo_version .btn-light.ban-btn{
 }
 
 .testimonial img {
-    max-width: 55px;
+    max-width: 25%;
 }
 
 .testimonial small {
-    margin-top: 7px;
+    margin-top: 3px;
     font-size: 16px;
     display: block;
+    color:rgb(211, 211, 211);
 }
 
 .testimonial {
@@ -1160,7 +1161,6 @@ body.seo_version .btn-light.ban-btn{
 .testimonial small,
 .testimonial .lead {
     background-color: transparent;
-    color: #aaa;
     display: block;
     font-size: 16px;
     font-style: italic;
