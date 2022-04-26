@@ -455,8 +455,8 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 .imagelogo{
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
 }
 
 
@@ -724,12 +724,18 @@ a.bttn-new:focus {
 	font-size: 22px;
 }
 
+.letrasparticipantes{
+    color: #fff;
+    font-size: 12px;
+}
+
 
 
 .parallax {
     background-attachment: fixed;
     background-size: cover;
     height: 100%;
+    margin-top: 100px;
     padding: 120px 0;
     position: relative;
     width: 100%;
@@ -755,6 +761,7 @@ a.bttn-new:focus {
     -ms-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
+
 }
 
 .section {
@@ -1110,7 +1117,7 @@ body.seo_version .btn-light.ban-btn{
 
 .testi-meta {
     display: block;
-	max-width: 250px;
+	max-width: 400px;
 	margin: 0 auto;
 	margin-top: 10px;
 	padding-bottom: 10px;
@@ -1125,6 +1132,11 @@ body.seo_version .btn-light.ban-btn{
     color: #ffffff;
     padding: 13px 0 0;
 }
+.sep{
+    margin-top: 200px;
+    color:#00aced;
+}
+
 
 .desc p{
 	font-size: 18px;

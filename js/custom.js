@@ -113,8 +113,57 @@
     /* ==============================================
      CONTACT -->
      =============================================== */
-    jQuery(document).ready(function() {
-        $('#contactform').submit(function() {
+
+
+     var formulario=document.getElementById('contactform');
+     var respuesta=document.getElementById('respuesta');
+
+    formulario.addEventListener('submit', function(e){
+        e.preventDefault();
+
+        console.log('me diste click');
+        var datos = new FormData();
+        var nombre= $('#nombre').val();
+        var apellido= $('#apellido').val();
+        var email= $('#email').val();
+        var asunto= $('#asunto').val();
+        var msg= $('#msg').val();
+
+        datos.append('nombre', nombre);
+        datos.append('apellido', apellido);
+        datos.append('email', email);
+        datos.append('asunto', asunto);
+        datos.append('msg', msg);
+
+        console.log(datos.get('nombre'));
+        
+        fetch('contactaction.php',{
+            method: 'POST',
+            body: datos
+
+        })
+
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                if(data === 'error'){
+                    respuesta.innerHTML = `<div class="alert alert-danger" role="alert">
+                    Llena todos los datos
+                    </div>`
+                
+                }else{
+                    respuesta.innerHTML = `<div class="alert alert-primary" role="alert">
+                    Mensaje enviado
+                    </div>`
+                }
+            })
+    })
+            
+           
+    /*** *    $('#contactform').submit(function(e) {
+            e.preventDefault();
+
+            
             var action = $(this).attr('action');
             $("#message").slideUp(750, function() {
                 $('#message').hide();
@@ -122,13 +171,14 @@
                     .after('<img src="images/ajax-loader.gif" class="loader" />')
                     .attr('disabled', 'disabled');
                 $.post(action, {
-                        first_name: $('#first_name').val(),
-                        last_name: $('#last_name').val(),
+                        nombre: $('#nombre').val(),
+                        apellido: $('#apellido').val(),
                         email: $('#email').val(),
-                        phone: $('#phone').val(),
+                        asunto: $('#asunto').val(),
+                        msg: $('#msg').val(),
+                        recipient= "apphyperionlsm@gmail.com",
                         select_service: $('#select_service').val(),
                         select_price: $('#select_price').val(),
-                        comments: $('#comments').val(),
                         verify: $('#verify').val()
                     },
                     function(data) {
@@ -139,12 +189,13 @@
                         });
                         $('#submit').removeAttr('disabled');
                         if (data.match('success') != null) $('#contactform').slideUp('slow');
+                        alert("Mensaje enviado");
                     }
                 );
             });
             return false;
-        });
-    });
+        });** */
+
 
 	/* ==============================================
     BACK TOP

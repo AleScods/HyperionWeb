@@ -1,3 +1,28 @@
+#overbox3 {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 999999;
+    display: block;
+}
+#infobox3 {
+    margin: auto;
+    position: relative;
+    top: 0px;
+    height: 58px;
+    width: 100%;
+    text-align:center;
+    background-color: #eeeeee;
+}
+#infobox3 p {
+    font-size:15px;
+    text-align:center;
+}
+#infobox3 p a {
+    margin-right:5px;
+    text-decoration: underline;
+}
 
 
 .seo_version .sl-slider-wrapper {
@@ -10,7 +35,7 @@
 .seo_version .sl-slider h2,
 .seo_version .sl-slider blockquote {
 	padding: 150px 30px 10px 30px;
-	width: 80%;
+	width: 70%;
 	max-width: 1140px;
 	color: #fff;
 	margin: 0 auto;
@@ -160,6 +185,7 @@
 
 .seo_version .bg-img-1 {
 	background-image: url(../images/slider-01.jpg);
+	
 }
 .seo_version .bg-img-2 {
 	background-image: url(../images/slider-02.jpg);

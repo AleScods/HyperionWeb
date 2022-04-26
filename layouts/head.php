@@ -3,6 +3,7 @@
     <!-- Basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+
    
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -28,26 +29,29 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-	<link rel="manifest" href="images/manifest.json">
+	<link rel="manifest" href="images/manifest.json?v=<?php echo(rand()); ?>">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=<?php echo(rand()); ?>">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=<?php echo(rand()); ?>">
     <!-- ALL VERSION CSS -->
-    <link rel="stylesheet" href="css/versions.css">
+    <link rel="stylesheet" href="css/versions.css?v=<?php echo(rand()); ?>">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css?v=<?php echo(rand()); ?>">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom.css?v=<?php echo(rand()); ?>">
 	
-	<script src="js/modernizr.custom.79639.js"></script>
+	<script src="js/modernizr.custom.79639.js?v=<?php echo(rand()); ?>"></script>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    
 </head>

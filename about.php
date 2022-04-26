@@ -6,18 +6,6 @@
 
 <body class="seo_version">
 
-	<!-- LOADER -->
-	<div id="preloader">
-		<div class="loader-wrapper">
-			<div class="loader-new">
-				<div class="ball"></div>
-				<div class="ball"></div>
-				<div class="ball"></div>
-			</div>
-			<div class="text">CARGANDO..</div>
-		</div>
-	</div>
-	<!-- END LOADER -->
 
     <!-- Start header -->
 	<?php
@@ -44,15 +32,57 @@
 			<p>Aplicación de aprendizaje de lengua de señas mexicano (LSM)</p>
         </div>
         <div class="container">
-            <p><b> Intérprete de LSM: </b><br>
-                Luz Andrea Guerrero Vázquez <br>
-                Licenciada en Educación Preescolar <br><br>
+            <p>
                 <b> Directora del proyecto: </b> <br>
                 Dra. Aída Lucina González Lara <a style="color:white " href="mailto:aida.gonzalezlr@uanl.edu.mx "><small>   <u> aida.gonzalezlr@uanl.edu.mx </u> </small> </a><br> <br>
                 <b> Estudiantes: </b><br>
                 Orlando Miguel Leija Alvarez <br>
                 Alejandra Monzerrat Fuentes Gonzalez <br>
-                Luis Andrés García Contreras  <br>
+                Luis Andrés García Contreras  <br> <br>
+                <b>Colaboración con: </></b>
+                <img class="imagelogo" src="images/logocantando.png" alt="" /> <br>
+                <b>Organización comunitaria: </b> "EnSeñas Cantando" <br>
+                Lic. Lorena Barajas<br> <br>
+
+                <b>Participantes:</b>
+
+                
+                <h5 class="letrasparticipantes"> Alejandra Margarita Vielmas Nava, 
+                    Ana Beatriz García Marcos, 
+                    Andrea Alvarez Quiroga, 
+                    Arturo Rojas Mondragón, 
+                    Bastian Leonardo Rivera Silva,  
+                    Carlos Gael Cantú Sánchez, 
+                    Carlos Oziel Dominguez Fuentes, 
+                    Chantal Elizabeth Martinez Garza, 
+                    Dafne Berenice Tavera Guzmán, 
+                    Deyda Adriana Salinas Blanco, 
+                    Gabriel Alejandro Cantú Sánchez, 
+                    Griselda Aguilar Gasca, 
+                    Karen Yarelly Chapa Aranda, 
+                    Karla Lizeth Palomino Gonzalez, 
+                    Laura Elisa Gonzalez V, 
+                    Luz Andrea Guerrero Vázquez, 
+                    Marbella Salas Alcantar, 
+                    Maria de Jesus Salas Hernandez, 
+                    María del Rosario Reyes Anastasio, 
+                    María Isabel Ruth Angeles Rodríguez, 
+                    Martha Imelda Turrubiates Varela, 
+                    Martha Mariana Palomares Sosa, 
+                    Michelle Montiel Morán, 
+                    Mireida Dayanara Andrade Aquino, 
+                    Nancy Lizeth Muñoz Espinosa, 
+                    Nancy Yadira Sánchez Barboza, 
+                    Odilia Camacho Salazar, 
+                    Pedro Guerrero Rodríguez, 
+                    Samantha Viveros Mendoza, 
+                    Tania Carolina Olvera Rodríguez, 
+                    Tania Elizabeth Hernández Buendía, 
+                    Victoria Magaly Rodríguez Sánchez, 
+                    Wendy Cristal Chávez Vidales.
+
+                <br><br>
+
              </p>
         </div>
     </div><!-- end section -->
@@ -69,7 +99,7 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">HYPERION</a> Design By : <a href="https://html.design/">Alejandra Fuentes</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">HYPERION</a> </p>
                 </div>
             </div>
         </div><!-- end container -->

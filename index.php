@@ -6,18 +6,6 @@
 
 <body class="seo_version">
 
-	<!-- LOADER -->
-	<div id="preloader">
-		<div class="loader-wrapper">
-			<div class="loader-new">
-				<div class="ball"></div>
-				<div class="ball"></div>
-				<div class="ball"></div>
-			</div>
-			<div class="text">CARGANDO...</div>
-		</div>
-	</div>
-	<!-- END LOADER -->
 	
 	<!-- Start header -->
 	<?php
@@ -33,7 +21,16 @@
 						<div class="bg-img bg-img-1"></div>
 						<h2>HYPERION</h2>
 						<blockquote><p>Aplicación de enseñanza de lengua de señas mexicana. </p>
-						<a href="#" class="bttn-new">Comenzar</a>
+						<a href="#descarga" class="bttn-new">Comenzar</a>
+						</blockquote>
+					</div>
+				</div>
+				<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+					<div class="sl-slide-inner">
+						<div class="bg-img bg-img-2"></div>
+						<h2>TUTORIAL</h2>
+						<blockquote><p>Mira el tutorial para saber de que trata esta aplicación </p>
+						<a href="#tutorial" class="bttn-new">Ir a tutorial</a>
 						</blockquote>
 					</div>
 				</div>
@@ -43,10 +40,13 @@
 
 			<nav id="nav-dots" class="nav-dots">
 				<span class="nav-dot-current"></span>
+				<span></span>
 			</nav>
 
 		</div><!-- /slider-wrapper -->
 	</div>
+
+	
 
     <div id="about" class="section wb nopadtop">
         <div class="container">
@@ -54,9 +54,9 @@
 				<div class="col-md-6 m40">
                     <div class="message-box">
                         <h2>Bienvenido a HYPERION </h2>
-                        <p>HYPERION ha trabajado durante 2 años en desarrollar una metodología para facilitar la enseñanza-aprendizaje de la lengua de señas mexicana para que las personas puedan aprender responsablemente, así como formar parte de un ambiente educativo o laboral inclusivo</p>
-						
-						<p>Alumnos de la Facultad de Ingeniería Mecánica y Eléctrica de la Universidad Autónoma de Nuevo León con base en la metodología creada de diferentes expertos han desarrollado una aplicación dirigida al pùblico en general que permita adquirir la habilidad de aprender lengua de señas mexicana mediante el uso de las Tecnologías de la Información. </p>
+                        <p>HYPERION es una aplicación móvil  que tiene como objetivo facilitar el aprendizaje de la lengua de señas mexicana (LSM) de una manera fácil y divertida. Usa una metodología dividida en niveles con diferentes temas para un aprendizaje dinámico.</p>
+						<p>	HYPERION fue creada por un equipo integrado por alumnos y profesora de la Facultad de Ingeniería Mecánica y Eléctrica de la Universidad Autónoma de Nuevo León y de expertos en LSM con la misión de contribuir  a la inclusión social, construyendo una sociedad integrada e inclusiva. </p>
+						<p>HYPERION contiene videos que fueron realizados por la comunidad de "Enseñas Cantando".</p>
                         
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
@@ -89,7 +89,7 @@
 								<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
 									<div class="card-body">
 										<div class="inner-acc">
-											<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+											<p>Desarrollo de una aplicación móvil mediante la metodología centrada en usuario, con el fin de apoyar en el aprendizaje de la lengua de señas mexicana.</p>
 											<ul>
 												<li><i class="fa fa-hand-o-right" aria-hidden="true"></i> A través de una aplicación interactiva, promover el conocimiento de la lengua de señas mexicana</li>
 												<li><i class="fa fa-hand-o-right" aria-hidden="true"></i> Crear un lugar donde las personas de cualquier edad puedan aprender a comunicarse y la gente pueda comunicarse con ellos mediante lengua de señas.</li>
@@ -130,7 +130,7 @@
 						<div class="testi-meta">
                                 <h4> <b>Lecciones </b><small>Aprende con vídeos</small></h4>
                             </div>
-						<img src="images/img2.jpg" alt="" class="img-fluid aligncenter">
+						<img src="images/img2.jpg"  alt="" class="img-fluid aligncenter">
                         </div>
                         <!-- end testimonial -->
 
@@ -172,17 +172,13 @@
     <div id="services" class="section lb">
         <div class="container-fluid">
 			<div class="container">
-				<div class="section-title text-center">
-					<h3>SEO Services</h3>
-					<p class="lead">We offer unlimited solutions to all your business needs. in the installation package we prepare search engine optimization, social media support, we provide corporate identity and graphic design services.</p>
-				</div><!-- end title -->
 			</div>
             <div class="row text-center">
 				<div class="owl-services-seo owl-carousel owl-theme">
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/servicios/facilacceso.png" alt="" class="img-fluid img-rounded">
+								<img src="images/facilacceso.png" alt="" class="img-fluid img-rounded" >
 							</div>
 							<h3>Fácil acceso</h3>
 							<p>Ingresa con una cuenta o sin ella</p>
@@ -192,17 +188,17 @@
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/servicios/aprendeoffline.png" alt="" class="img-fluid img-rounded">
+								<img src="images/aprendeoffline.png" alt="" class="img-fluid img-rounded">
 							</div>
 							<h3>Aprende offline</h3>
-							<p>Descarga el contenido y apre sin necesidad de tener conexión a Internet </p>
+							<p>Descarga el contenido y aprende sin necesidad de tener conexión a Internet </p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 
 					<div class="text-center">
 						<div class="service-widget">
 							<div class="post-media wow fadeIn">
-								<img src="images/servicios/ponteenpractica.png" alt="" class="img-fluid img-rounded">
+								<img src="images/ponteenpractica.png" alt="" class="img-fluid img-rounded">
 							</div>
 							<h3>Ponte en práctica</h3>
 							<p>Con los divertidos ejercicios de reforzamiento.</p>
@@ -215,7 +211,7 @@
 								<img src="images/seo_04.png" alt="" class="img-fluid img-rounded">
 							</div>
 							<h3>Videotutoriales</h3>
-							<p>Aliquam sagittis ligula et sem lacinia, ut facilisis enim sollicitudin. Proin nisi est, convallis nec purus vitae, iaculis posuere sapien. Cum sociis natoque.</p>
+							<p>Aprendizaje a través de videos.</p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 
@@ -225,13 +221,55 @@
 								<img src="images/seo_05.png" alt="" class="img-fluid img-rounded">
 							</div>
 							<h3>Contenido en la palma de tu mano</h3>
-							<p>Duis at tellus at dui tincidunt scelerisque nec sed felis. Suspendisse id dolor sed leo rutrum euismod. Nullam vestibulum fermentum erat. It nam auctor. </p>
+							<p>Descarga el contenido y aprende en modo OFFLINE. </p>
 						</div><!-- end service -->
 					</div><!-- end col -->
 
 				</div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
+    </div><!-- end section -->
+
+	<div id="tutorial" class="section wb">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>TUTORIAL</h3>
+                
+            </div><!-- end title -->
+
+					<div class="card text-center">
+		<div class="card-header">
+			<ul class="nav nav-tabs card-header-tabs">
+			<li class="nav-item">
+				<a class="nav-link active" href="#">TUTORIAL</a>
+			</li>
+			
+			</ul>
+		</div>
+		<div class="card-body">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/WsTjePU9gHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		</div>
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+	<div class="parallax section lb" id="descarga"> 
+        <div class="container">
+			<div> </div>
+			<div class="section-title text-center">
+					<h3>Aprende con HYPERION</h3>
+					<p class="lead">¡Descarga la app!</p>
+				</div><!-- end title -->
+				<div class="row text-center stat-wrap justify-content-center">
+					<div class="">
+						<h3>Haz clic en el ícono para descargar</h3>
+						<span data-scroll class="">
+						<a href="https://play.google.com/store/apps/details?id=com.hypdev.hyperion_f1"><img width="200px" height="100px" src="images/playstore.png" alt=""/></span></a>
+						
+						
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
     </div><!-- end section -->
 
     <div id="support" class="section db">
@@ -272,7 +310,7 @@
         <div class="container">
             <div class="footer-distributed">
                 <div class="footer-left">
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">HYPERION</a> Design By : <a href="https://html.design/">Alejandra Fuentes</a></p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 HYPERION</p>
                 </div>
             </div>
         </div><!-- end container -->
