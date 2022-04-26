@@ -2,6 +2,9 @@
 <html lang="en">
 <?php
     include "layouts/head.php";
+    header('Access-Control-Allow-Origin: *');
+    header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
+    header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
     ?>
 
 <body class="seo_version">
@@ -268,6 +271,18 @@
 						
 						
 					</div><!-- end col -->
+					<div class="" style=" width:200px; height:100px " alt="">
+						<h3>ó</h3>
+						<span data-scroll class="">
+					</div>
+					
+					<div class="">
+						<h3>Prueba la version online</h3>
+						<span data-scroll class="">
+						<a href="https://hyperionlsm.online/online.html?v=9"><img width="200px" height="100px" src="images/logocompleto.png" alt=""/></span></a>
+						
+						
+					</div>
 				</div><!-- end row -->
 			</div><!-- end container -->
     </div><!-- end section -->

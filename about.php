@@ -51,16 +51,12 @@
                     Ana Beatriz García Marcos, 
                     Andrea Alvarez Quiroga, 
                     Arturo Rojas Mondragón, 
-                    Bastian Leonardo Rivera Silva,  
                     Carlos Gael Cantú Sánchez, 
                     Carlos Oziel Dominguez Fuentes, 
                     Chantal Elizabeth Martinez Garza, 
                     Dafne Berenice Tavera Guzmán, 
-                    Deyda Adriana Salinas Blanco, 
                     Gabriel Alejandro Cantú Sánchez, 
                     Griselda Aguilar Gasca, 
-                    Karen Yarelly Chapa Aranda, 
-                    Karla Lizeth Palomino Gonzalez, 
                     Laura Elisa Gonzalez V, 
                     Luz Andrea Guerrero Vázquez, 
                     Marbella Salas Alcantar, 
@@ -76,9 +72,8 @@
                     Odilia Camacho Salazar, 
                     Pedro Guerrero Rodríguez, 
                     Samantha Viveros Mendoza, 
-                    Tania Carolina Olvera Rodríguez, 
-                    Tania Elizabeth Hernández Buendía, 
-                    Victoria Magaly Rodríguez Sánchez, 
+                    Tania Carolina Olvera Rodríguez,
+                    Victoria Magaly Rodríguez Sánchez,
                     Wendy Cristal Chávez Vidales.
 
                 <br><br>
